@@ -17,10 +17,12 @@ jobs:
         with:
           java-version: '21'      # See 'Options' section below for all supported versions
           distribution: 'graalvm' # See 'Options' section below for all available distributions
+          cache: 'maven'
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: deploy
         run: |
-          mvn deploy -DskipTests -s settings.xml -DnhannhtIcepdfToken=${{ secrets.GITHUB_TOKEN }}
+          mvn -Prelease deploy  -DskipTests -s settings.xml -DnhannhtIcepdfToken=${{ secrets.GITHUB_TOKEN }}
         
 
