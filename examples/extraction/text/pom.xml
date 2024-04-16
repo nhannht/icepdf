@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.icepdf.examples</groupId>
         <artifactId>extraction</artifactId>
-        <version>7.3.2-nhannht-SNAPSHOT</version>
+        <version>7.3.3-nhannht-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>text-extraction</artifactId>
