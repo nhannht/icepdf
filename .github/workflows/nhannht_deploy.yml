@@ -21,6 +21,6 @@ jobs:
 
       - name: deploy
         run: |
-          mvn deploy -DskipTests
+          mvn deploy -DskipTests -s settings.xml -DnhannhtIcepdfToken=${{ secrets.GITHUB_TOKEN }}
         
 

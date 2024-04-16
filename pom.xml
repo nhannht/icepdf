@@ -63,7 +63,7 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
+            <id>nhannht-github-icepdf</id>
             <name>icepdf version of nhannht  - ghcr</name>
             <url>https://maven.pkg.github.com/nhannht/icepdf</url>
         </repository>
