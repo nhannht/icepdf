@@ -2404,9 +2404,9 @@ public class SwingViewBuilder implements ViewBuilder {
             logger.warning("Failed to load toolbar toggle button images: " + imageName + "_i" + imageSize + ".png");
         }
         //tmp.setBorderPainted(false);
-        tmp.setBorder(BorderFactory.createEmptyBorder());
-        tmp.setContentAreaFilled(false);
-        tmp.setFocusPainted(true);
+//        tmp.setBorder(BorderFactory.createEmptyBorder());
+//        tmp.setContentAreaFilled(false);
+//        tmp.setFocusPainted(true);
 
         return tmp;
     }
@@ -2439,10 +2439,10 @@ public class SwingViewBuilder implements ViewBuilder {
             logger.warning("Failed to load toolbar toggle images: " + imageName + "_i" + imageSize + ".png");
         }
         //tmp.setBorderPainted(false);
-        tmp.setBorder(BorderFactory.createEmptyBorder());
-        tmp.setContentAreaFilled(false);
-        tmp.setRolloverEnabled(true);
-        tmp.setFocusPainted(true);
+//        tmp.setBorder(BorderFactory.createEmptyBorder());
+//        tmp.setContentAreaFilled(false);
+//        tmp.setRolloverEnabled(true);
+//        tmp.setFocusPainted(true);
 
         return tmp;
     }
@@ -2476,11 +2476,11 @@ public class SwingViewBuilder implements ViewBuilder {
         } catch (NullPointerException e) {
             logger.warning("Failed to load toobar toggle button images: " + imageName + ".png");
         }
-        tmp.setBorderPainted(false);
-        tmp.setBorder(BorderFactory.createEmptyBorder());
-        tmp.setContentAreaFilled(false);
-        tmp.setFocusPainted(false);
-        tmp.setPreferredSize(new Dimension(imageWidth, imageHeight));
+//        tmp.setBorderPainted(false);
+//        tmp.setBorder(BorderFactory.createEmptyBorder());
+//        tmp.setContentAreaFilled(false);
+//        tmp.setFocusPainted(false);
+//        tmp.setPreferredSize(new Dimension(imageWidth, imageHeight));
 
         return tmp;
     }
