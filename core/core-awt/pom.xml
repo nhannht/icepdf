@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.github.pcorless.icepdf</groupId>
         <artifactId>core</artifactId>
-        <version>7.3.1-nhannht-SNAPSHOT</version>
+        <version>7.3.2-nhannht-SNAPSHOT</version>
     </parent>
     <artifactId>icepdf-core</artifactId>
     <packaging>jar</packaging>
