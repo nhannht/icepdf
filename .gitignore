@@ -6,3 +6,5 @@
 **/target/
 /build/
 *.iml
+**/pom.xml.versionsBackup
+/.flattened-pom.xml

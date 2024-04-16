@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.pcorless.icepdf</groupId>
     <artifactId>icepdf</artifactId>
-    <version>7.3.0-SNAPSHOT</version>
+    <version>7.3.1-nhannht-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ICEpdf</name>
     <description>
@@ -62,13 +62,10 @@
     </developers>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>icepdf version of nhannht  - ghcr</name>
+            <url>https://maven.pkg.github.com/nhannht/icepdf</url>
         </repository>
     </distributionManagement>
 
