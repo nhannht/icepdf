@@ -2302,10 +2302,14 @@ public class SwingController extends ComponentAdapter
                 btn.setSelected(selected);
             }
 
-            btn.setBorder(
-                    selected ?
-                            BorderFactory.createLoweredBevelBorder() :
-                            BorderFactory.createEmptyBorder());
+//            btn.setBorder(
+//                    selected ?
+//                            BorderFactory.createLoweredBevelBorder() :
+//                            BorderFactory.createEmptyBorder());
+            if (btn.isSelected()){
+                btn.setForeground(new Color(184, 28, 241, 255));
+
+            } ;
         }
     }
 
