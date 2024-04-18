@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.icepdf.examples</groupId>
         <artifactId>capture</artifactId>
-        <version>7.3.3-nhannht-SNAPSHOT</version>
+        <version>7.3.4-nhannht-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>portfolio-capture</artifactId>

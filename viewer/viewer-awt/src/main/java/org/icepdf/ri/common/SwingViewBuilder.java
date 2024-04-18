@@ -2390,19 +2390,19 @@ public class SwingViewBuilder implements ViewBuilder {
             String title, String toolTip, String imageName,
             final String imageSize, java.awt.Font font) {
         JToggleButton tmp = new JToggleButton(showButtonText ? title : "");
-        tmp.setFont(font);
-        tmp.setToolTipText(toolTip);
-        setPreferredButtonSize(tmp, imageSize);
-        tmp.setRolloverEnabled(true);
-
-        try {
-            tmp.setIcon(new ImageIcon(Images.get(imageName + "_a" + imageSize + ".png")));
-            tmp.setPressedIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
-            tmp.setRolloverIcon(new ImageIcon(Images.get(imageName + "_r" + imageSize + ".png")));
-            tmp.setDisabledIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
-        } catch (NullPointerException e) {
-            logger.warning("Failed to load toolbar toggle button images: " + imageName + "_i" + imageSize + ".png");
-        }
+//        tmp.setFont(font);
+//        tmp.setToolTipText(toolTip);
+//        setPreferredButtonSize(tmp, imageSize);
+//        tmp.setRolloverEnabled(true);
+//
+//        try {
+//            tmp.setIcon(new ImageIcon(Images.get(imageName + "_a" + imageSize + ".png")));
+//            tmp.setPressedIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
+//            tmp.setRolloverIcon(new ImageIcon(Images.get(imageName + "_r" + imageSize + ".png")));
+//            tmp.setDisabledIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
+//        } catch (NullPointerException e) {
+//            logger.warning("Failed to load toolbar toggle button images: " + imageName + "_i" + imageSize + ".png");
+//        }
         //tmp.setBorderPainted(false);
 //        tmp.setBorder(BorderFactory.createEmptyBorder());
 //        tmp.setContentAreaFilled(false);
@@ -2426,19 +2426,19 @@ public class SwingViewBuilder implements ViewBuilder {
             String title, String toolTip, String imageName,
             final String imageSize, java.awt.Font font) {
         JToggleButton tmp = new JToggleButton(showButtonText ? title : "");
-        tmp.setFont(font);
-        tmp.setToolTipText(toolTip);
-        setPreferredButtonSize(tmp, imageSize);
-        try {
-            tmp.setIcon(new ImageIcon(Images.get(imageName + "_a" + imageSize + ".png")));
-            tmp.setPressedIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
+//        tmp.setFont(font);
+//        tmp.setToolTipText(toolTip);
+//        setPreferredButtonSize(tmp, imageSize);
+//        try {
+//            tmp.setIcon(new ImageIcon(Images.get(imageName + "_a" + imageSize + ".png")));
+//            tmp.setPressedIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
 //            tmp.setSelectedIcon(new ImageIcon(Images.get(imageName + "_s" + imageSize + ".png")));
-            tmp.setRolloverIcon(new ImageIcon(Images.get(imageName + "_r" + imageSize + ".png")));
-            tmp.setDisabledIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
-        } catch (NullPointerException e) {
-            logger.warning("Failed to load toolbar toggle images: " + imageName + "_i" + imageSize + ".png");
-        }
-        //tmp.setBorderPainted(false);
+//            tmp.setRolloverIcon(new ImageIcon(Images.get(imageName + "_r" + imageSize + ".png")));
+//            tmp.setDisabledIcon(new ImageIcon(Images.get(imageName + "_i" + imageSize + ".png")));
+//        } catch (NullPointerException e) {
+//            logger.warning("Failed to load toolbar toggle images: " + imageName + "_i" + imageSize + ".png");
+//        }
+//        //tmp.setBorderPainted(false);
 //        tmp.setBorder(BorderFactory.createEmptyBorder());
 //        tmp.setContentAreaFilled(false);
 //        tmp.setRolloverEnabled(true);
@@ -2451,11 +2451,11 @@ public class SwingViewBuilder implements ViewBuilder {
     protected JToggleButton makeToolbarToggleButton(
             String title, String toolTip, java.awt.Font font) {
         JToggleButton tmp = new JToggleButton(showButtonText ? title : "");
-        tmp.setFont(font);
-        tmp.setToolTipText(toolTip);
-        setPreferredButtonSize(tmp, iconSize);
-        tmp.setText(title);
-        tmp.setFocusPainted(true);
+//        tmp.setFont(font);
+//        tmp.setToolTipText(toolTip);
+//        setPreferredButtonSize(tmp, iconSize);
+//        tmp.setText(title);
+//        tmp.setFocusPainted(true);
         return tmp;
     }
 
@@ -2464,18 +2464,18 @@ public class SwingViewBuilder implements ViewBuilder {
             String title, String toolTip, String imageName,
             int imageWidth, int imageHeight, java.awt.Font font) {
         JToggleButton tmp = new JToggleButton(showButtonText ? title : "");
-        tmp.setFont(font);
-        tmp.setToolTipText(toolTip);
-        tmp.setRolloverEnabled(false);
-        setPreferredButtonSize(tmp, iconSize);
-        try {
-            tmp.setIcon(new ImageIcon(Images.get(imageName + "_d.png")));
-            tmp.setPressedIcon(new ImageIcon(Images.get(imageName + "_d.png")));
-            tmp.setSelectedIcon(new ImageIcon(Images.get(imageName + "_n.png")));
-            tmp.setDisabledIcon(new ImageIcon(Images.get(imageName + "_n.png")));
-        } catch (NullPointerException e) {
-            logger.warning("Failed to load toobar toggle button images: " + imageName + ".png");
-        }
+//        tmp.setFont(font);
+//        tmp.setToolTipText(toolTip);
+//        tmp.setRolloverEnabled(false);
+//        setPreferredButtonSize(tmp, iconSize);
+//        try {
+//            tmp.setIcon(new ImageIcon(Images.get(imageName + "_d.png")));
+//            tmp.setPressedIcon(new ImageIcon(Images.get(imageName + "_d.png")));
+//            tmp.setSelectedIcon(new ImageIcon(Images.get(imageName + "_n.png")));
+//            tmp.setDisabledIcon(new ImageIcon(Images.get(imageName + "_n.png")));
+//        } catch (NullPointerException e) {
+//            logger.warning("Failed to load toobar toggle button images: " + imageName + ".png");
+//        }
 //        tmp.setBorderPainted(false);
 //        tmp.setBorder(BorderFactory.createEmptyBorder());
 //        tmp.setContentAreaFilled(false);
