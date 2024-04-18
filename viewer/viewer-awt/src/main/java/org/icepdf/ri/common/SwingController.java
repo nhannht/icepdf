@@ -2296,7 +2296,7 @@ public class SwingController extends ComponentAdapter
                         DocumentViewControllerImpl.ONE_PAGE_VIEW));
     }
 
-    private void reflectSelectionInButton(AbstractButton btn, boolean selected) {
+    public void reflectSelectionInButton(AbstractButton btn, boolean selected) {
         if (btn != null) {
             if (btn.isSelected() != selected) {
                 btn.setSelected(selected);
